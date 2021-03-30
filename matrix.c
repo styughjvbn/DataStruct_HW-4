@@ -49,7 +49,6 @@ int main()
 
         printf("Command = ");
         fflush(stdout);//eclipse의 scanf 오류를 해결하기 위함
-        fflush(stdout);
         scanf(" %c", &command);
 
         switch (command) {
